@@ -7,7 +7,7 @@
 
 INSTALL_TARGET_PROCESSES = SpringBoard
 export ADDITIONAL_CFLAGS = -DTHEOS_LEAN_AND_MEAN -fobjc-arc --include-directory ./Include
-export TARGET = iphone:clang:14.4:9.0
+export TARGET = iphone:16.5:14.0
 export ARCHS = arm64 arm64e
 
 TWEAK_NAME = Panic
